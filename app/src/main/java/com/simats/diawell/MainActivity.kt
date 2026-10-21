@@ -1,4 +1,4 @@
-package com.simats.diawell
+git inititpackage com.simats.diawell
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             DiaWellTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "handlebar" +,
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
